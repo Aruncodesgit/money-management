@@ -29,7 +29,7 @@ module.exports.addmoney = (req, res, next) => {
 }
 
 
-// get projects
+// get projectssada
 module.exports.addmoneyDetails = async (req, res, next) => { 
     addMoney.find((err, docs) => {
         if(!err) {res.send(docs);}
